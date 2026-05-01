@@ -7,3 +7,5 @@ if(idade1 >=18 && idade2 >=18);
 Console.WriteLine ("os dois tem idade para a festinha");
 
 Console.WriteLine ("o Geovan da muuito é a bunda");
+
+Console.WriteLine("Eu amo muito a Renata");
