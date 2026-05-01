@@ -9,3 +9,14 @@ Console.WriteLine ("os dois tem idade para a festinha");
 Console.WriteLine ("o Geovan da muuito é a bunda");
 
 Console.WriteLine("Eu amo muito a Renata");
+
+string Professor1 = "Kairo";
+string Professor2 = "Pedro";
+string Professor3 = "Lucas";
+
+string Materia1 = "Banco de dados ";
+string Materia2 = "Git & Github";
+string Materia3 = "Ingles Técnico";
+string Materia3 = "fundamentos do C#";
+string Materia4 = "Empreendorismo";
+string Materia5 = "Marketing pessoal"; 
