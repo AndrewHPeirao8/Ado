@@ -20,3 +20,25 @@ string Materia3 = "Ingles Técnico";
 string Materia3 = "fundamentos do C#";
 string Materia4 = "Empreendorismo";
 string Materia5 = "Marketing pessoal"; 
+
+
+bool LuzCozinha  = true;
+bool LuzSala  = true;
+
+
+if (LuzCozinha&&LuzSala) 
+
+{
+    
+    Console.WriteLine ("As luzes estão acessas");
+    
+}
+
+else
+
+{
+    
+Console.WriteLine ("As luzes estão apagadas");
+
+}    
+
