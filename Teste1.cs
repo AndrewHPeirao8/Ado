@@ -9,3 +9,32 @@ Console.WriteLine ("os dois tem idade para a festinha");
 Console.WriteLine ("o Geovan da muuito é a bunda");
 
 Console.WriteLine("Eu amo muitao a Renata");
+
+bool LuzCozinha  = true;
+bool LuzSala  = !true;
+
+
+if (LuzCozinha&&LuzSala)
+
+{
+    
+    Console.WriteLine ("As luzes estão acessas");
+    
+}
+
+else if (LuzCozinha&&LuzSala)
+
+{
+    
+Console.WriteLine ("As luzes estão apagadas");
+
+}   
+
+
+else
+
+{
+    
+    Console.WriteLine ("Uma esta acessa e a outra apagada");
+
+};
