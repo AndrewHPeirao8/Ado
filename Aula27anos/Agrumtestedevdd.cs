@@ -17,9 +17,9 @@ string Professor3 = "Lucas";
 string Materia1 = "Banco de dados ";
 string Materia2 = "Git & Github";
 string Materia3 = "Ingles Técnico";
-string Materia3 = "fundamentos do C#";
-string Materia4 = "Empreendorismo";
-string Materia5 = "Marketing pessoal"; 
+string Materia4 = "fundamentos do C#";
+string Materia5 = "Empreendorismo";
+string Materia6 = "Marketing pessoal"; 
 
 
 bool LuzCozinha  = true;
@@ -43,10 +43,14 @@ Console.WriteLine ("As luzes estão apagadas");
 }    
 
 
-void ChamadaProfessor (String Professor1, string Professor2, String Professor3, string Materia1, string Materia2, string Materia3, String Materia4)
+string ChamadaProfessor (String Professor1, string Professor2, String Professor3, string Materia1, string Materia2, string Materia3, String Materia4)
 
 {
     
 Console.WriteLine($"Eu tenho o professor {Professor1} que da as materias {Materia1} e a materia {Materia2} tenho o professor {Professor2} que da a materia {Materia3} e a materia {Materia4}");
 
 }
+
+return ChamadaProfessor("Kairo", "Pedro", "Lucas",
+                 "Banco de dados", "Git & Github",
+                 "Inglês Técnico", "Fundamentos do C#");
