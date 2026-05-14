@@ -1,3 +1,0 @@
-# Ado
-Teste
-git git

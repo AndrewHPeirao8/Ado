@@ -54,3 +54,27 @@ Console.WriteLine($"Eu tenho o professor {Professor1} que da as materias {Materi
 return ChamadaProfessor("Kairo", "Pedro", "Lucas",
                  "Banco de dados", "Git & Github",
                  "Inglês Técnico", "Fundamentos do C#");
+                 
+                 
+
+
+bool Levantar = true;
+bool Abaixar = false;
+
+
+void Movimentação (bool Levantar, bool Abaixar)
+
+{
+
+if (Levantar)
+
+Console.WriteLine ("Levantando vidro");
+
+
+else if (Abaixar)
+
+Console.WriteLine ("Abaixando vidro");
+
+}
+
+Movimentação (Abaixar,Levantar);
