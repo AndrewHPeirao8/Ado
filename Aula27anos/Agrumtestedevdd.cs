@@ -1,3 +1,5 @@
+using System.Diagnostics.Contracts;
+
 string nome1 = "Andrew";
 int idade1 = 26;
 string nome2 = "Renata";
@@ -9,6 +11,9 @@ Console.WriteLine ("os dois tem idade para a festinha");
 Console.WriteLine ("o Geovan da muuito é a bunda");
 
 Console.WriteLine("Eu amo muito a Renata");
+
+
+
 
 string Professor1 = "Kairo";
 string Professor2 = "Pedro";
@@ -32,38 +37,35 @@ Console.WriteLine($"Eu tenho o professor {Professor1} que da as materias {Materi
 ChamadaProfessor (Professor1,Professor2, Professor3, Materia1, Materia2, Materia3, Materia4);
 
 
-bool LuzCozinha  = true;
-bool LuzSala  = true;
-
+bool LuzCozinha  = !true;
+bool LuzSala  = !true;
 
 if (LuzCozinha&&LuzSala) 
 
 {
-    
     Console.WriteLine ("As luzes estão acessas");
-    
 }
 
-else
+else if (!LuzCozinha&&!LuzSala)
 
-{
-    
+{  
 Console.WriteLine ("As luzes estão apagadas");
-
 }    
+
+
+
+
 
 bool Levantar = true;
 bool Abaixar = false;
 
-
-void Movimentação (bool Levantar, bool Abaixar)
+void Movimentação (bool Levantar,bool Abaixar)
 
 {
 
 if (Levantar)
 
 Console.WriteLine ("Levantando vidro");
-
 
 else if (Abaixar)
 
@@ -72,3 +74,17 @@ Console.WriteLine ("Abaixando vidro");
 }
 
 Movimentação (Abaixar,Levantar);
+
+int Numero = 8;
+
+int Resultado = SomarMaisDois(Numero);
+
+Console.WriteLine($"Resultado={Resultado}");
+
+int SomarMaisDois (int valor)
+
+{
+    
+return valor +2;
+
+}
