@@ -1,3 +1,4 @@
+using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Contracts;
 
 string nome1 = "Andrew";
@@ -75,6 +76,8 @@ Console.WriteLine ("Abaixando vidro");
 
 Movimentação (Abaixar,Levantar);
 
+
+
 int Numero = 8;
 
 int Resultado = SomarMaisDois(Numero);
@@ -88,3 +91,12 @@ int SomarMaisDois (int valor)
 return valor +2;
 
 }
+
+  void ExibirDataAtual()
+{
+    Console.WriteLine(DateTime.Now.ToShortDateString());
+}
+ ExibirDataAtual();
+
+
+
