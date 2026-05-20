@@ -1,8 +1,9 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Contracts;
+using System.Reflection;
 
 string nome1 = "Andrew";
-int idade1 = 26;
+int idade1 = 27;
 string nome2 = "Renata";
 int idade2 = 25;
 Console.WriteLine ($"{nome1} tem {idade1} anos {nome2} tem {idade2}");
@@ -99,4 +100,43 @@ return valor +2;
  ExibirDataAtual();
 
 
+List<string> Chamada = new List<string>();
+
+Chamada.Add("Andrew");
+Chamada.Add("Renata");
+Chamada.Add("Edevaldo");
+Chamada.Add("Adriana");
+
+foreach (string aluno in Chamada);
+{
+    Console.WriteLine($"{aluno} - Presente);
+
+}
+
+if (Chamada.Contains("Andrew"))
+{
+
+    Console.WriteLine("Andrew Presente");    
+
+}
+
+Console.WriteLine(Chamada
+
+void ListarAlunos(List<string>Chamada)
+
+{
+    if (Chamada.Count == 0)
+    {
+     Console.WriteLine ("Nenhum Aluno Cadastrado");   
+     return;
+
+    }
+
+    Console.WriteLine("\n=== Lista de alunos");
+
+    foreach (string aluno in Chamada)
+
+    Console.WriteLine(aluno)
+
+}
 
