@@ -107,9 +107,9 @@ Chamada.Add("Renata");
 Chamada.Add("Edevaldo");
 Chamada.Add("Adriana");
 
-foreach (string aluno in Chamada);
+foreach (string aluno in Chamada)
 {
-    Console.WriteLine($"{aluno} - Presente);
+    Console.WriteLine($"{aluno} - Presente");
 
 }
 
@@ -120,7 +120,7 @@ if (Chamada.Contains("Andrew"))
 
 }
 
-Console.WriteLine(Chamada
+Console.WriteLine(Chamada)
 
 void ListarAlunos(List<string>Chamada)
 
@@ -136,7 +136,7 @@ void ListarAlunos(List<string>Chamada)
 
     foreach (string aluno in Chamada)
 
-    Console.WriteLine(aluno)
+    Console.WriteLine(aluno);
 
 }
 
