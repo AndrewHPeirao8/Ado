@@ -1,6 +1,7 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Contracts;
 using System.Reflection;
+using System.Security.Authentication.ExtendedProtection;
 
 string nome1 = "Andrew";
 int idade1 = 27;
@@ -120,7 +121,7 @@ if (Chamada.Contains("Andrew"))
 
 }
 
-Console.WriteLine(Chamada)
+Console.WriteLine(Chamada);
 
 void ListarAlunos(List<string>Chamada)
 
@@ -138,5 +139,37 @@ void ListarAlunos(List<string>Chamada)
 
     Console.WriteLine(aluno);
 
+}
+
+List<string> LutasMarciais = new List<string>();
+
+LutasMarciais.Add ("Muay Thai");
+LutasMarciais.Add ("Boxe");
+LutasMarciais.Add ("Kick Boxe");
+LutasMarciais.Add ("Kung Fu");
+LutasMarciais.Add ("MMA");
+
+LutasMarciais.Remove ("MMA");
+
+foreach (string Luta in LutasMarciais)
+
+{
+    Console.WriteLine(Luta);
+}
+
+{   
+    Console.WriteLine(LutasMarciais.Count);
+}
+
+{
+    Console.WriteLine(LutasMarciais[2]);
+
+}
+
+
+  if (LutasMarciais.Count >=2)
+
+{
+    Console.WriteLine("Tem Bastante lutas");
 }
 
