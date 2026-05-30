@@ -173,3 +173,43 @@ foreach (string Luta in LutasMarciais)
     Console.WriteLine("Tem Bastante lutas");
 }
 
+List<string> Personagens = new List<string> {"Goku", "Naruto",};
+
+Personagens.Add ("Killua");
+Personagens.Add ("Sasuke");
+Personagens.Add ("Vegeta");
+Personagens.Add ("Gon");
+
+foreach (string Nomes in Personagens)
+{
+    Console.WriteLine(Nomes);
+
+}
+
+if (Personagens.Count >=3)
+{
+Console.WriteLine("Personagem pra baralho");
+}
+
+bool CaixaE = true;
+bool CaixaD = true;
+
+if (CaixaD && CaixaE)
+{
+    Console.WriteLine("As Caixinha tao torando");
+}
+
+else if (!CaixaD && !CaixaE)
+{
+    Console.WriteLine("Tamo triste");
+}
+
+else if (!CaixaD && CaixaE)
+{
+    Console.WriteLine("Ainda tem alguma coisa porem muito esquerdista");
+}
+
+else 
+{
+    Console.WriteLine("Tamo melhor que do outro lado kkkkkkkkk");  
+}
