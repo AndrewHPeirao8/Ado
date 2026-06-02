@@ -1,5 +1,6 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Contracts;
+using System.Globalization;
 using System.Reflection;
 using System.Security.Authentication.ExtendedProtection;
 
@@ -163,7 +164,6 @@ foreach (string Luta in LutasMarciais)
 
 {
     Console.WriteLine(LutasMarciais[2]);
-
 }
 
 
@@ -180,6 +180,8 @@ Personagens.Add ("Sasuke");
 Personagens.Add ("Vegeta");
 Personagens.Add ("Gon");
 Personagens.Add ("Jiraya");
+Personagens.Add ("Sakura");
+Personagens.Remove ("Sakura");
 
 foreach (string Nomes in Personagens)
 {
@@ -187,12 +189,16 @@ foreach (string Nomes in Personagens)
 
 }
 
+{
+    Console.WriteLine(Personagens.Count);
+}
+
 if (Personagens.Count >=3)
 {
 Console.WriteLine("Personagem pra baralho");
 }
 
-bool CaixaE = true;
+bool CaixaE = !true;
 bool CaixaD = true;
 
 if (CaixaD && CaixaE)
@@ -215,3 +221,31 @@ else
     Console.WriteLine("Tamo melhor que do outro lado kkkkkkkkk");  
 }
 
+var Numeros = new List<int>();
+
+Numeros.Add(0);
+Numeros.Add(1);
+Numeros.Add(2);
+Numeros.Add(3);
+Numeros.Add(4);
+Numeros.Add(5);
+Numeros.Add(6);
+Numeros.Add(7);
+Numeros.Add(8);
+Numeros.Add(9);
+
+{
+    Console.WriteLine(Numeros.Count);
+}
+
+Numeros.Remove(0);
+
+{
+    Console.WriteLine(Numeros.Count);
+}
+
+if (Numeros.Count >=5)
+
+{
+    Console.WriteLine("Tem mt numero slc");
+}
