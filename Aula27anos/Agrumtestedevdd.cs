@@ -249,3 +249,21 @@ if (Numeros.Count >=5)
 {
     Console.WriteLine("Tem mt numero slc");
 }
+
+if (Numeros.Contains (8))
+
+{
+    Console.WriteLine("Tem mesmo e é muito doido");
+}
+
+double media = Numeros.Average();
+
+{
+    Console.WriteLine(media);
+}
+
+double soma = Numeros.Sum();
+
+{
+    Console.WriteLine(soma);
+}
