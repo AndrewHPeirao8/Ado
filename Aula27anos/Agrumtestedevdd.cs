@@ -267,3 +267,46 @@ double soma = Numeros.Sum();
 {
     Console.WriteLine(soma);
 }
+
+List <string> Frutas = new List<string>();
+
+Frutas.Add ("Maçã");
+Frutas.Add ("Banana");
+Frutas.Add ("Laranja");
+Frutas.Add ("Abacaxi"); 
+
+foreach (string Fruta in Frutas)
+
+{
+    Console.WriteLine(Fruta);
+}
+
+Console.WriteLine(Frutas.Count);
+
+Console.WriteLine(Frutas[1]);
+
+var listaDeCompras = new List<string>();
+
+void AdicionarItem(List<string> Lista , string item)
+{
+   Lista.Add(item);
+}
+
+void ListarItens(List<string> Lista)
+{
+foreach (var item in Lista)
+{
+    Console.WriteLine(item);
+}
+}   
+
+AdicionarItem(listaDeCompras, "Sal");
+
+foreach (var item in listaDeCompras)
+{
+    Console.WriteLine(item);
+}
+
+AdicionarItem(listaDeCompras, "Pão");
+AdicionarItem(listaDeCompras, "Ovos");
+ListarItens(listaDeCompras);

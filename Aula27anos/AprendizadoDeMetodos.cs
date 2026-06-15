@@ -31,3 +31,12 @@ double SomaDosMetodos (int calculadora, double calculadoraMedia)
 }
 
 Console.WriteLine(SomaDosMetodos(Calculadora(5, 10), (double)CalculadoraMedia(5, 10)));
+
+Console.WriteLine((Calculadora(5, 10) + CalculadoraMedia(5, 10))/2.0);
+
+list<int> NumerosPares = new List<int>{2, 4, 6, 8, 10};
+
+foreach (int numero in NumerosPares)
+{
+    Console.WriteLine(numero);
+}
