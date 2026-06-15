@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="valor1" type="text">
+    <input id="valor2" type="text">
+
+    <button onclick="calcular()">Somar</button>
+    <button onclick="calcular()">Dividir</button>
+    <button onclick="calcular()">Multiplicar</button>
+    <button onclick="calcular()">Subtração</button>
+
+</body>
+
+    <script>
+        function calcular()
+        {
+            let valor1 = parseFloat(document.getElementById("valor1").value);
+            let valor2 = parseFloat(document.getElementById("valor2").value);
+
+            switch(event.target.innerText)
+            {
+                case "Somar":
+                alert(valor1 + valor2);
+                break;
+
+                case "Dividir":
+                if (valor2 !== 0)
+            {
+                alert (valor1 / valor2)
+            }
+            else 
+            {
+                alert ("Não é possivel dividir por 0")
+            }
+            break;
+
+                case "Multiplicar":
+                alert(valor1 * valor2);
+                break;
+
+                case "Subtração":
+                alert(valor1 - valor2);
+                break;
+                
+            };
+        
+        }
+    </script>
+</html>

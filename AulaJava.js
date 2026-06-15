@@ -4,7 +4,7 @@ let ativo = true;
 
 let pessoa = 
 {
-    nome : "Vanelssa",
+    nome : "Vanessa",
     idade : 21,
     ativo : true
 };
